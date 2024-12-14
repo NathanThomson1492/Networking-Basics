@@ -24,12 +24,18 @@ This tutorial outlines the use of Wireshark to observe various network protocols
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Download/Install Wireshark
-- Step 3
-- Step 4
+- Disable ICMP traffic in the Firewall
+- Capture and observe traffic through Wireshark
+  
+  
+
+<h2> Introduction</h2>
+
+<p>This tutorial provides a step-by-step guide to installing and using Wireshark to capture and analyze traffic for five key networking protocols: ICMP, SSH, DHCP, DNS, and RDP.  By the end of this guide, you will understand how to identify and interpret packet data for these protocols, equipping you with the foundational skills to analyze network performance, detect issues, and enhance security. </p>
 
 <h2>Download and Install Wireshark</h2>
 <p>
-To begin, we will use Remote Desktop to connect to your Windows 10 Virtual Machine. Once connected, the first step is to install Wireshark, a powerful tool for network traffic analysis. After installation, open Wireshark and initiate a packet capture session by selecting your active network interface.
+Wireshark is a powerful network protocol analyzer that allows IT professionals to monitor and troubleshoot network activity in real-time. To begin, we will use Remote Desktop to connect to your Windows 10 Virtual Machine. Once connected, the first step is to install Wireshark, a powerful tool for network traffic analysis. After installation, open Wireshark and initiate a packet capture session by selecting your active network interface.
 </p>
 
  ![lab2_dl_wireshark](https://github.com/user-attachments/assets/5135657e-334c-45ff-a3ce-a0dcacf9fc15)
